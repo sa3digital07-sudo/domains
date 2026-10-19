@@ -1,13 +1,19 @@
 {
-  "description": "SA3 Digitals business and personal projects",
-  "domain": "owns.it.com",
-  "subdomain": "sa3digitals",
-  "owner": {
-    "repo": "https://github.com/sa3digital07-sudo/sa3-website",
-    "email": "sa3digital07@gmail.com"
-  },
-  "record": {
-    "CNAME": "sa3-website.sa3digital07.workers.dev"
-  },
-  "proxied": false
+    "description": "Brief project description",
+    "domain": "owns.it.com",
+    "subdomain": "sa3digital",
+    
+    "owner": {
+        "repo": "https://github.com/sa3digital07-sudo/sa3-website.git",
+        "email": "sa3digital07@gmail.com"
+    },
+    
+    "record": {
+        "A": ["1.1.1.1"],
+        "AAAA": ["::1"],
+        "CNAME": "sa3digital",
+        "TXT": ["verification=123"]
+    },
+    
+    "proxied": false
 }
